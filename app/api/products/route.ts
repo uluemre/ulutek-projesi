@@ -26,9 +26,9 @@ export const sampleProducts = [
         price: 3250.50,
         imageUrl: "/images/placeholder-kulaklik.png",
         category: "Aksesuar",
-        stock": 250,
-    brand": "ULUTEK Gaming"
-  }
+        stock: 250,
+        brand: "ULUTEK Gaming"
+    }
 ];
 
 export async function GET() {
