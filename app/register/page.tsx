@@ -1,3 +1,4 @@
+// Bu bir test yorumudur
 import React from 'react'
 import RegisterForm from '@/components/register/RegisterForm'
 
