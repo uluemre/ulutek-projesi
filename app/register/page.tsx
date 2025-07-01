@@ -1,13 +1,4 @@
-// Bu bir test yorumudur
-import React from 'react'
-import RegisterForm from '@/components/register/RegisterForm'
-
-function Register() {
-    return (
-        <div className=''>
-            <RegisterForm />
-        </div>
-    )
+import React from 'react';
+export default function RegisterPage() {
+    return <div className="p-8 text-center"><h1>Kayıt Ol</h1><p>Bu sayfa yapım aşamasındadır.</p></div>;
 }
-
-export default Register
