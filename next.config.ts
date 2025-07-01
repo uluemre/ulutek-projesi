@@ -1,7 +1,19 @@
-import type { NextConfig } from "next";
+// next.config.ts
 
-const nextConfig: NextConfig = {
-  /* config options here */
+import type { NextConfig } from 'next';
+
+const config: NextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'via.placeholder.com',
+        port: '',
+        pathname: '/**',
+      },
+      // İleride başka alan adları eklenebilir
+    ],
+  },
 };
 
-export default nextConfig;
+export default config;
