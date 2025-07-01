@@ -1,0 +1,95 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('../../public/images/registerbg.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.logo {
+    max-width: 100%;
+}
+
+.register-container {
+    position: relative;
+    top: 80px;
+    margin: auto;
+    width: 28%;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    /* background-color: rgba(127, 255, 212, 0.268); */
+    background-color: rgba(103, 221, 207, 0.268);
+
+}
+
+.form-title {
+    color: rgb(191, 229, 216);
+    font-size: 32px;
+}
+
+.input-style {
+    letter-spacing: 1.2px;
+    width: 76%;
+    padding: 8px 14px;
+    outline: none;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    border: 2px solid transparent;
+    font-size: 17px;
+    background-color: rgba(240, 248, 255, 0.171);
+    transition: all 0.3s ease-in-out;
+    /* color: rgb(232, 236, 235); */
+    color: rgb(255, 255, 255);
+}
+
+
+.input-style:hover {
+    border: 2px solid rgb(225, 223, 223);
+}
+
+.input-style:focus {
+    background-color: #29989a;
+}
+
+.input-style::placeholder {
+    color: rgb(232, 236, 235);
+}
+
+.button-style {
+    margin-top: 20px;
+    width: 40%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(103, 221, 207);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 12px;
+}
+
+.button-style:hover {
+    background-color: rgb(191, 229, 216);
+    color: black;
+}
+
+.login-link {
+    color: rgb(191, 229, 216);
+    text-decoration: none;
+    font-size: 17px;
+    transition: all 0.3s ease-in-out;
+}
+
+.login-link:hover {
+    color: rgb(103, 221, 207);
+}
